@@ -35,7 +35,7 @@ NSSet * AFContentTypesFromHTTPHeader(NSString *string) {
     if (!string) {
         return nil;
     }
-    
+
     NSScanner *scanner = [NSScanner scannerWithString:string];
     scanner.charactersToBeSkipped = _skippedCharacterSet;
     
